@@ -3,7 +3,9 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
+    "configu
+learn
+    rations": [
         app
         http://d
         #diin tubeapp run
@@ -13,8 +15,43 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "url": "http://localhostx:8080",
+            "webRoot": "${workspaceFoldego
+            {
+                "name": "Launch Program",
+                "program": "${workspaceFolder}/test
+                ",
+                "request": "launch",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "type": "node",
+                "configurations": [
+                    
+
+
+
+
+
+
+
+                    {}node
+
+
+
+                    {
+                        "type": "lldb",
+                        "request": "attach",
+                        "name": "Attach",
+                        "program": "${workspaceFolder}/<program>"
+                    },
+                    (run)
+
+                    chrom
+
+                yes
+                ]
+            },r}"
         }
     ]
 }
